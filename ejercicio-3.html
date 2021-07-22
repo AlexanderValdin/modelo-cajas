@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <style media="screen">
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .flags-section {
+        width: 80%;
+        text-align: center;
+        margin: 100px auto 0 auto;
+      }
+      .row {
+        margin-top: 50px;
+      }
+      .col {
+        display: inline-block;
+        width: 40%;
+      }
+      .flag {
+        border: 1px solid black;
+        display: inline-block;
+        width: 400px;
+        height: 300px;
+        margin: 0 50px;
+      }
+
+      /* España */
+      .spain {
+        background-color: red;
+      }
+        .spain-yellow {
+          width: 100%;
+          height: 110px;
+          margin-top: 95px;
+          position: relative;
+          z-index: 1;
+          background-color: yellow;
+        }
+
+      /* Dinamarca */
+
+      .denmark {
+        background-color: red;
+      }
+        .denmark-white-h {
+          width: 100%;
+          height: 20px;
+          position: relative;
+          margin-top: 140px;
+          z-index: 1;
+          background-color: white;
+        }
+        .denmark-white-v {
+          height: 100%;
+          width: 20px;
+          position: relative;
+          margin-left: 140px;
+          top: -160px;
+          z-index: 1;
+          background-color: white;
+        }
+
+      /* Emiratos Árabe */
+
+      .emirates-red {
+        display: inline-block;
+        float: left;
+        width: 100px;
+        height: 100%;
+        background-color: red;
+      }
+
+      .emirates-green {
+        width: 300px;
+        height: 100px;
+        margin-left: 100px;
+        background-color: green;
+      }
+
+      .emirates-black {
+        width: 300px;
+        height: 100px;
+        margin-left: 100px;
+        margin-top: 100px;
+        background-color: black;
+      }
+
+
+      /* Japón */
+
+      .japan-red {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: red;
+        margin: auto;
+        margin-top: 100px;
+      }
+    </style>
+</head>
+<body>
+  <div class="flags-section">
+    <div class="row">
+      <div class="col">
+        <div class="flag spain">
+          <div class="spain-yellow">
+
+          </div>
+        </div>
+        <span class="span">España</span>
+      </div>
+      <div class="col">
+        <div class="flag denmark">
+          <div class="denmark-white-h">
+
+          </div>
+          <div class="denmark-white-v">
+
+          </div>
+        </div>
+        <span class="span">Dinamarca</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="flag emirates">
+          <div class="emirates-red">
+
+          </div>
+          <div class="emirates-green">
+
+          </div>
+          <div class="emirates-black">
+
+          </div>
+        </div>
+        <span class="span">Emiratos Árabes</span>
+      </div>
+      <div class="col">
+        <div class="flag japan">
+          <div class="japan-red">
+
+          </div>
+        </div>
+        <span class="span">Japón</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
